@@ -85,7 +85,7 @@ void Kernels::launch_happy(const bool& _wait) {
 
     Memory<uint64_t>::copy(number_of_tests, Cuda_Utilities::Unit::DEVICE, number_of_tests, Cuda_Utilities::Unit::HOST);
 
-    for (uint64_t i = 3508294876; i <= 3508294876; i += 5) { // Change [from, to, step] as desired
+    for (uint64_t i = 1; i <= 1500; i += 1) { // Change [from, to, step] as desired
         seed[0] = rng();
         n_of_digits[0] = i;
         happy_counter[0] = 0;
