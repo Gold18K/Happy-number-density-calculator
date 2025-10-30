@@ -11,5 +11,3 @@ To use it (Linux):
 1) Open console in the "main" folder.
 2) Compile using command (Requires CUDA Toolkit): nvcc Main.cu Kernels.cu Cuda_Utilities.cpp -o cuda_happy
 3) Run using command: ./cuda_happy
-
-Disclaimer: I have yet to test it on Linux, BUT it should already work.
